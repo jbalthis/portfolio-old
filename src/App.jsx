@@ -3,12 +3,12 @@ import{
   About,
   Contact,
   Experience,
-  Testimonials,
+  Works,
   Hero,
   Navbar,
   Tech,
-  Projects,
-  StarsCanvas
+  StarsCanvas,
+  Feedbacks
 } from './components';
 
 const App = () => {
@@ -26,8 +26,8 @@ const App = () => {
         <About />                           {/* <SPA_BASE_URL> + /about        */}
         <Experience />                      {/* <SPA_BASE_URL> + /experience   */}
         <Tech />                            {/* <SPA_BASE_URL> + /tech         */}
-        <Projects />                        {/* <SPA_BASE_URL> + /projects     */}
-        <Testimonials />                    {/* <SPA_BASE_URL> + /testimonials */}
+        <Works />                           {/* <SPA_BASE_URL> + /projects     */}
+        <Feedbacks />                       {/* <SPA_BASE_URL> + /testimonials */}
                                             {/*                                */}
         {/* ext. page body */}              {/*                                */}
         <div className="relative z-0">      {/*                                */}

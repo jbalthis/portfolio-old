@@ -1,4 +1,5 @@
-import Tilt from "react-tilt";
+import React from "react";
+import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -18,7 +19,6 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        onResetCapture={.}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
@@ -47,17 +47,18 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a professional, seasoned software developer whose passion has always
+        I&apos;m a professional, seasoned software developer whose passion has always
         been finding ways to use JavaScript and Linux to save the world. 
             
             * Cue: superhero music *
             
-        Well,  that maybe
-        a bit more dramatic and , and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        Well,  that maybe a bit more dramatic than was called for, but the fact
+        remains that my expertise lies in the use of JavaScript and its related
+        frameworks like React, Node.js, and Three.js. I&apos;m a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. Let&apos;s work together to bring your ideas to life!
       </motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
