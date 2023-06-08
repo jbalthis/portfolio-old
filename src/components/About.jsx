@@ -52,10 +52,12 @@ const About = () => {
             
             * Cue: superhero music *
             
-        Well,  that maybe a bit more dramatic than was called for, but the fact
+        Well,  that may be a bit more dramatic than was called for, but the fact
         remains that my expertise lies in the use of JavaScript and its related
-        frameworks like React, Node.js, and Three.js. I&apos;m a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
+        frameworks like Next.js, React, Node.js, Three.js and many, many more.
+         I&apos;m a very quick study when it comes to assessing a clients needs
+         and then will collaborate closely with them in order to create the most
+          efficient, scalable, and user-friendly solutions to solve their very
         real-world problems. Let&apos;s work together to bring your ideas to life!
       </motion.p>
 

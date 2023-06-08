@@ -12,16 +12,17 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  aaa,
+  cisco,
+  mrtech,
   messenger,
   portfolio,
   threejs,
+  logopng,
+  nextjs,
+  vuejs,
+  quasar
 } from "../assets";
 
 export const navLinks = [
@@ -100,12 +101,16 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Next JS",
+    icon: nextjs,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Vue JS",
+    icon: vuejs,
+  },
+  {
+    name: "Quasar",
+    icon: quasar,
   },
   {
     name: "docker",
@@ -117,7 +122,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "XanthianDesigns, Inc.",
-    icon: starbucks,
+    icon: javascript,
     iconBg: "#383E56",
     date: "August 2010 - August 2011",
     points: [
@@ -131,7 +136,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "WebProfessionalDirect",
-    icon: tesla,
+    icon: html,
     iconBg: "#E6DEDD",
     date: "Dec 2012 - July 2013",
     points: [
@@ -144,7 +149,7 @@ const experiences = [
   {
     title: "Mobile Application Developer",
     company_name: "AAA",
-    icon: shopify,
+    icon: aaa,
     iconBg: "#383E56",
     date: "Nov 2013 - Jan 2014",
     points: [
@@ -157,7 +162,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Cisco",
-    icon: meta,
+    icon: cisco,
     iconBg: "#E6DEDD",
     date: "Apr 2014 - June 2015",
     points: [
@@ -170,7 +175,7 @@ const experiences = [
   {
     title: "Senior Full Stack Developer",
     company_name: "M&R Technologies",
-    icon: meta,
+    icon: mrtech,
     iconBg: "#E6DEDD",
     date: "Apr 2018 - Feb 2021",
     points: [
@@ -183,7 +188,7 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Freelance",
-    icon: meta,
+    icon: logopng,
     iconBg: "#E6DEDD",
     date: "Mar 2022 - Present",
     points: [
@@ -206,7 +211,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Jason does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
