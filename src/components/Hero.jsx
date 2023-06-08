@@ -22,10 +22,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop cutting-edge, real-world applications with 
-            clean and modern user interfaces
-            and state of the art 3D visuals, using Next.js, React, Vue.js 
-            and a host of other JavaScript (TypeScript) tech stacks, frameworks and libraries.
+            I develop cutting-edge applications with 
+            clean and modern user interfaces and 3D visuals
           </p>
         </div>
       </div>
