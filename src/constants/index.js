@@ -121,7 +121,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2010 - August 2011",
     points: [
-      "Acted as Server Administrator for the firm&apos;s FreeBSD dedicated server, using various tools to complete routine tasks, including but not limited to, SSH, sFTP, Cron, Git, package managers, and resource monitors; Wrote custom scripts to deal with the automation of routine server tasks.",
+      "Acted as Server Administrator for the firm's FreeBSD dedicated server, using various tools to complete routine tasks, including but not limited to, SSH, sFTP, Cron, Git, package managers, and resource monitors; Wrote custom scripts to deal with the automation of routine server tasks.",
       "Designed and developed various websites using PHP/HTML, JavaScript/jQuery, and CSS. Created custom images for use as icons and other front-end assets using the Adobe Tools (PhotoShop and Illustrator).",
       "Used the core Joomla!  functions and MVC design in order to write PHP, JavaScript/jQuery, and CSS on top of to create a custom employee login and data management system for a client that included the use of AJAX to make server requests more seamless.",
       "Designed and launched a custom MySQL database that was to store customer’s information rather than have it be in the same database as the framework's functional data for the business.",
@@ -169,7 +169,7 @@ const experiences = [
   },
   {
     title: "Senior Full Stack Developer",
-    company_name: "M&amp;R Technologies",
+    company_name: "M&R Technologies",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Apr 2018 - Feb 2021",
