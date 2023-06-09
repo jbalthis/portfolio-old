@@ -22,7 +22,8 @@ import {
   logopng,
   nextjs,
   vuejs,
-  quasar
+  quasar,
+  chatbot
 } from "../assets";
 
 export const navLinks = [
@@ -269,7 +270,29 @@ const projects = [
     ],
     image: messenger,
     source_code_link: "https://github.com/jbalthis/messenger",
-  }
+  },
+  {
+    name: "Chatbot",
+    description:
+      "A simple ChatGPT client written in Python and making use of Flask, Jinja and Bootstrap to render the template.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chatgpt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatbot,
+    source_code_link: "https://github.com/jbalthis/chatbot",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

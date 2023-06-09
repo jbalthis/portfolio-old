@@ -11,6 +11,7 @@ import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 
 import git from "./tech/git.png";
+import chatbot from "./chatbot.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -57,5 +58,7 @@ export {
   cisco,
   mrtech,
   portfolio,
-  messenger
+  messenger,
+  git,
+  chatbot
 };
