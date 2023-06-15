@@ -23,6 +23,7 @@ import {
   nextjs,
   vuejs,
   quasar,
+  aiImagen,
   chatbot
 } from "../assets";
 
@@ -291,6 +292,27 @@ const projects = [
     ],
     image: chatbot,
     source_code_link: "https://github.com/jbalthis/chatbot",
+  },
+    {
+    name: "AI-Imagen",
+    description:
+      "An OpenAI themed image generator using the DALL-E API and built on a MERN stack with React, Express, Mongo, Tailwind, Node and more. Try it out at https://ai-imagen.barelyjason.online",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "DALL-E",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OpenAI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aiImagen,
+    source_code_link: "https://github.com/jbalthis/ai-imagen",
   },
 
 ];

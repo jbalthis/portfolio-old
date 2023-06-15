@@ -29,8 +29,10 @@ import messenger from "./messenger.png";
 import nextjs from "./tech/nextjs.png";
 import vuejs from "./tech/vuejs.png";
 import quasar from "./tech/quasar.png";
+import aiImagen from "./ai-imagen.png";
 
 export {
+  aiImagen,
   vuejs,
   quasar,
   nextjs,
