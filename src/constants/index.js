@@ -24,7 +24,8 @@ import {
   vuejs,
   quasar,
   aiImagen,
-  chatbot
+  chatbot,
+  spotify
 } from "../assets";
 
 export const navLinks = [
@@ -293,7 +294,7 @@ const projects = [
     image: chatbot,
     source_code_link: "https://github.com/jbalthis/chatbot",
   },
-    {
+  {
     name: "AI-Imagen",
     description:
       "An OpenAI themed image generator using the DALL-E API and built on a MERN stack with React, Express, Mongo, Tailwind, Node and more. Try it out at https://ai-imagen.barelyjason.online",
@@ -314,7 +315,27 @@ const projects = [
     image: aiImagen,
     source_code_link: "https://github.com/jbalthis/ai-imagen",
   },
-
+  {
+    name: "Spotify Clone",
+    description:
+      "A Next.js application that incorporates Stripe checkout to process payments and TailwindCSS to handle frontend styling",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: spotify,
+    source_code_link: "https://github.com/jbalthis/spotify-clone",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

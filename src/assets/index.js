@@ -9,7 +9,7 @@ import close from "./close.svg";
 import portfolio from "./portfolio.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-
+import spotify from "./spotify.jpeg";
 import git from "./tech/git.png";
 import chatbot from "./chatbot.png";
 import html from "./tech/html.png";
@@ -32,6 +32,7 @@ import quasar from "./tech/quasar.png";
 import aiImagen from "./ai-imagen.png";
 
 export {
+  spotify,
   aiImagen,
   vuejs,
   quasar,
